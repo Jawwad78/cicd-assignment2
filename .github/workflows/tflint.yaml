@@ -14,3 +14,6 @@ jobs:
       with:
         tflint_version: v0.52.0
         cache: true
+
+    - name: Run TFLint
+      run: tflint -f compact    
